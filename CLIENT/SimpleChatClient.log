@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="x-windows-949" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2013-08-20T17:59:21</date>
+  <millis>1376989161799</millis>
+  <sequence>0</sequence>
+  <logger>net.daum.javacafe</logger>
+  <level>INFO</level>
+  <class>com.benepia.client.SimpleChatClient</class>
+  <method>info</method>
+  <thread>10</thread>
+  <message>Writer is started..</message>
+</record>
+<record>
+  <date>2013-08-20T17:59:21</date>
+  <millis>1376989161925</millis>
+  <sequence>1</sequence>
+  <logger>net.daum.javacafe</logger>
+  <level>INFO</level>
+  <class>com.benepia.client.SimpleChatClient</class>
+  <method>info</method>
+  <thread>10</thread>
+  <message>Reader is started..</message>
+</record>
+<record>
+  <date>2013-08-20T17:59:21</date>
+  <millis>1376989161925</millis>
+  <sequence>2</sequence>
+  <logger>net.daum.javacafe</logger>
+  <level>INFO</level>
+  <class>com.benepia.client.SimpleChatClient</class>
+  <method>info</method>
+  <thread>10</thread>
+  <message>요청을 기다리는 중..</message>
+</record>
+<record>
+  <date>2013-08-20T17:59:49</date>
+  <millis>1376989189815</millis>
+  <sequence>3</sequence>
+  <logger>net.daum.javacafe</logger>
+  <level>INFO</level>
+  <class>com.benepia.client.SimpleChatClient</class>
+  <method>info</method>
+  <thread>10</thread>
+  <message>요청을 기다리는 중..</message>
+</record>
+<record>
+  <date>2013-08-20T18:00:50</date>
+  <millis>1376989250262</millis>
+  <sequence>4</sequence>
+  <logger>net.daum.javacafe</logger>
+  <level>WARNING</level>
+  <class>com.benepia.client.SimpleChatClient</class>
+  <method>log</method>
+  <thread>11</thread>
+  <message>MyThread.run()</message>
+  <exception>
+    <message>java.lang.NullPointerException</message>
+    <frame>
+      <class>com.benepia.client.SimpleChatClient$MyThread</class>
+      <method>run</method>
+      <line>165</line>
+    </frame>
+  </exception>
+</record>
