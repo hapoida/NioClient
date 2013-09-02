@@ -79,10 +79,12 @@ public class SimpleChatClient {
 					if (key.isReadable()) {
 						// 이미 연결된 클라이언트가 메세지를 보낸 경우.
 						read(key);
+						
 					}
 					// 이미 처리한 이벤트이므로 반드시 삭제해줌.
 					it.remove();
-				}								
+				}		
+				break;
 			}      
 		} catch (Exception e) {
 			log(Level.WARNING, "SimpleChatClient.startServer()", e);
